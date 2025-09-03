@@ -17,11 +17,10 @@ export default function HomeScreen() {
         />
       }>
       <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">Welcome!</ThemedText>
-        <HelloWave />
+        <ThemedText type="title" darkColor='red'>Robame el Brainrot 🔥</ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 1: Try it</ThemedText>
+        <ThemedText type="subtitle">Hola Mundo</ThemedText>
         <ThemedText>
           Edit <ThemedText type="defaultSemiBold">app/(tabs)/index.tsx</ThemedText> to see changes.
           Press{' '}
@@ -62,6 +61,7 @@ const styles = StyleSheet.create({
     gap: 8,
   },
   stepContainer: {
+    paddingHorizontal: 16,
     gap: 8,
     marginBottom: 8,
   },
